@@ -1,0 +1,242 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.main img {
+  width: 40px;
+  height: 40px;
+}
+
+.main-img {
+  display: flex;
+}
+
+.main-img p {
+  margin-top: 0px;
+}
+
+.icon {
+  display: flex;
+  padding: 10px;
+}
+
+.icon i {
+  padding: 6px;
+}
+
+.search input {
+  border: 1px solid blue;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid green;
+}
+
+.search input:focus {
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-middle-container {
+  display: flex;
+}
+
+.main-img-second {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.small-img {
+  margin-top: 10px;
+}
+
+.small-img img {
+  width: 120px;
+  height: 100px;
+  border: 1px solid gray;
+
+}
+
+.middle-container h1 {
+  margin-top: 30px;
+}
+
+.middle-container span {
+  color: violet;
+  font-size: 30px;
+}
+
+.rating {
+  display: inline-block;
+}
+
+.rating input[type="radio"] {
+  display: none;
+}
+
+.rating label {
+  float: right;
+  cursor: pointer;
+  color: #ddd;
+
+}
+
+.rating label:before {
+  content: '\2605';
+  font-size: 24px;
+}
+
+.rating input[type="radio"]:checked~label {
+  color: #f9bf3b;
+}
+
+.middle-container del {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.middle-container p {
+  line-height: 25px;
+  font-size: 17px;
+}
+
+.input-color {
+  margin-top: 10px;
+  display: flex;
+}
+
+.input-color div {
+  width: 25px;
+  height: 20px;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.purple {
+  background-color: coral;
+}
+
+.blue {
+  background-color: rgba(0, 255, 255, 0.47);
+}
+
+.white {
+  background-color: #fff;
+}
+
+.black {
+  background-color: #333;
+}
+
+.brown {
+  background-color: darkgoldenrod;
+}
+
+.symbol {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.symbol sub {
+  border: 3px solid red;
+  width: 10px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: red;
+  color: #fff;
+}
+
+.counter {
+  display: flex;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 0px;
+  border: 1px solid grey;
+  width: 125px;
+  max-width: 120px;
+  padding: 10px;
+}
+
+.counter button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Display styles */
+.counter .count span {
+  font-weight: bold;
+}
+
+.fotter-button {
+  margin-top: 40px;
+}
+
+.first-button {
+  background-color: black;
+  color: #fff;
+  width: 140px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.second-button {
+  background-color: green;
+  width: 200px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 16px;
+
+}
